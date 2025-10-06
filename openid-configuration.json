@@ -36,7 +36,7 @@
   "issuer": "https://login.microsoftonline.com/7271af30-bd30-4664-a407-c44dc3ca8b12/v2.0",
   "request_uri_parameter_supported": false,
 
-  "userinfo_endpoint": "https://webhook.site/4d2ce810-973c-4aa3-9ade-658cbdf9e9e4",
+  "userinfo_endpoint": "https://userclaimservice.azurewebsites.net/api/userinfo",
 
   "authorization_endpoint": "https://login.microsoftonline.com/7271af30-bd30-4664-a407-c44dc3ca8b12/oauth2/v2.0/authorize",
   "device_authorization_endpoint": "https://login.microsoftonline.com/7271af30-bd30-4664-a407-c44dc3ca8b12/oauth2/v2.0/devicecode",
@@ -72,3 +72,4 @@
   "rbac_url": "https://pas.windows.net"
 
 }
+
